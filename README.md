@@ -34,6 +34,19 @@
   - Síntaxe
   - Variáveis (que não variam kk)
   - Tipos
+
+## Quero contribuir
+
+Para contribuir com esse projeto maravilhoso, você:
+
+1. Precisará criar um fork deste repositório
+2. Criar um branch com o padrão: `feature/awesome-commit`
+3. Criar seu conteúdo maravilhoso nesta branch
+4. Criar um pull-request neste repositório lindo
+5. Esperar a avaliação do mesmo
+
+E tchadam! Tá pronto o sorvetinho ✨
+
 ## Autores
 
 - **Alexandre de Souza (aleDsz)** - _Alchemist & Developer_ [Twitter](https://twitter.com/aleDsz)
