@@ -23,6 +23,17 @@
   <a href="https://github.com/aleDsz/elixir4noobs">Request Feature</a>
 </p>
 
+## Conteúdos
+
+- Introdução
+  - Sobre o Projeto
+  - Pré-requisitos
+  - Instalação
+- Programção Funcional
+- Linguagem
+  - Síntaxe
+  - Variáveis (que não variam kk)
+  - Tipos
 ## Autores
 
 - **Alexandre de Souza (aleDsz)** - _Alchemist & Developer_ [Twitter](https://twitter.com/aleDsz)
