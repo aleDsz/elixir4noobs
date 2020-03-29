@@ -25,17 +25,22 @@
 
 ## Conteúdos
 
-- Introdução
-  - Sobre o Projeto
-  - Pré-requisitos
-    * Conhecimentos Necessários
-    * Instalação
-- Ambiente
-  - Como começar?
-- Linguagem
-  - Síntaxe
-  - Variáveis (que não variam kk)
-  - Tipos
+1. Introdução
+    - Sobre o Projeto
+    - Pré-requisitos
+      * Conhecimentos Necessários
+      * Instalação
+2. Ambiente
+    - Como começar?
+3. Linguagem
+    - Sobre a linguagem
+      * Extensão
+    - Paradigma
+    - Síntaxe
+    - Variáveis
+      * Tipos
+    - Módulos
+      * Funções
 
 ## Quero contribuir
 
