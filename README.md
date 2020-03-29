@@ -28,7 +28,7 @@
 1. Introdução
     - [Sobre o Projeto](./contents/1%20-%20Introducao/1-Sobre%20o%20Projeto.md)
     - [Pré-requisitos](./contents/1%20-%20Introducao/2-Pre-requisitos.md)
-      * [Conhecimentos Necessários](./contents/1%20-%20Introducao/1-Pre-requisitos.md#conhecimentos-necessários)
+      * [Conhecimentos Necessários](./contents/1%20-%20Introducao/2-Pre-requisitos.md#conhecimentos-necessários)
       * [Instalação](./contents/1%20-%20Introducao/2-Pre-requisitos.md#instalação)
 2. Ambiente
     - [Como começar?](./contents/2%20-%20Ambiente/1-Como%20comecar.md)
