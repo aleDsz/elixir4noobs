@@ -30,7 +30,8 @@
   - Pré-requisitos
     * Conhecimentos Necessários
     * Instalação
-- Programção Funcional
+- Ambiente
+  - Como começar?
 - Linguagem
   - Síntaxe
   - Variáveis (que não variam kk)
