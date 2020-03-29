@@ -28,7 +28,8 @@
 - Introdução
   - Sobre o Projeto
   - Pré-requisitos
-  - Instalação
+    * Conhecimentos Necessários
+    * Instalação
 - Programção Funcional
 - Linguagem
   - Síntaxe
