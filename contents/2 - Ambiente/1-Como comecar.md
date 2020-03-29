@@ -1,4 +1,4 @@
-## 2.1 - Como começar?
+# 2.1 - Como começar?
 
 Se você chegou nesse passo, acredito que esteja pensando em qual IDE ou qual editor de texto você precisa instalar para começar a desenvolver.
 
