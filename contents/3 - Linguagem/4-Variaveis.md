@@ -123,7 +123,7 @@ iex> [1, 2, 3]
 iex> [1, 2, 3] ++ [4]
 [1, 2, 3, 4]
 
-# Uma lista com tamanho "pré=definido"
+# Uma lista com tamanho "pré-definido"
 iex> {1, 2, 3}
 {1, 2, 3}
 
