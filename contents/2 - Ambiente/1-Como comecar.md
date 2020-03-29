@@ -15,7 +15,6 @@ Para que seu desenvolvimento seja mais intuitivo, você pode instalar esta lista
 
 ## Extensões
 
-
 ### Sublime text
 
 Para instalar as extensões para o Sublime Text, você precisa destas extensões:
