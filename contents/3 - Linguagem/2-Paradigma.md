@@ -1,4 +1,4 @@
-## 3.2 - Paradigma
+# 3.2 - Paradigma
 
 De maneira simples, o paradigma funcional é uma sequência de funções e/ou passos os quais meu código executará para resolver um problema.
 

@@ -1,4 +1,4 @@
-## 3.1 - Sobre a linguagem
+# 3.1 - Sobre a linguagem
 
 Elixir é uma linguagem de programação funcional, concorrente, de propósito geral que executa na máquina virtual Erlang (BEAM). Elixir compila em cima de Erlang para fornecer aplicações distribuídas, em tempo real suave, tolerante a falhas, non-stop, mas também a estende para suportar metaprogramação com macros e polimorfismo via protocolos.
 

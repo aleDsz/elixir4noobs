@@ -1,4 +1,4 @@
-## 3.3 - Síntaxe
+# 3.3 - Síntaxe
 
 A síntaxe do Elixir se assemelha muito com o [Ruby](https://www.ruby-lang.org/pt/), o que facilita muito para programadores que estão migrando do Ruby para Elixir.
 
