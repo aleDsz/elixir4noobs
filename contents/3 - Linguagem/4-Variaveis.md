@@ -142,7 +142,17 @@ Binário, não necessariamente trabalha com binário, pois este pode ser também
 
 ### Char list
 
-TODO: Criar uma explicação fodástica
+Como o próprio nome diz, ele é um vetor de caracteres no qual você define utilizando *singlequotes*, ou seja, a famigerada aspas simples.
+
+O seu uso é comum quando você precisa criar uma interface ou até mesmo usar módulos nativos ou de bibliotecas do Erlang.
+
+```elixir
+iex> 'Hello'
+'Hello'
+
+iex> is_list('Hello')
+true
+```
 
 ### Struct
 
