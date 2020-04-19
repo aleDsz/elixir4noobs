@@ -43,6 +43,9 @@
       * [Funções](./contents/3%20-%20Linguagem/5-Modulos.md#funções)
     - [Estruturas de Repetição](./contents/3%20-%20Linguagem/6-Estruturas%20de%20Repeticao.md)
     - [Estruturas de Decisão](./contents/3%20-%20Linguagem/7-Estruturas%20de%20Decisao.md)
+4. Recursos extras
+    - [Gerenciador de Pacotes](./contents/4%20-%20Recursos%20extras/1-Gerenciador%20de%20Pacotes.md)
+      * [Terminal Interativo](./contents/4%20-%20Recursos%20extras/1-Gerenciador%20de%20Pacotes.md#terminal-interativo)
 
 ## Quero contribuir
 
