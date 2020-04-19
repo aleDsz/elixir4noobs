@@ -41,6 +41,7 @@
       * [Tipos](./contents/3%20-%20Linguagem/4-Variaveis.md#tipos)
     - [Módulos](./contents/3%20-%20Linguagem/5-Modulos.md)
       * [Funções](./contents/3%20-%20Linguagem/5-Modulos.md#funções)
+    - [Estruturas de Repetição](./contents/3%20-%20Linguagem/6-Estruturas%20de%20Repeticao.md)
 
 ## Quero contribuir
 
