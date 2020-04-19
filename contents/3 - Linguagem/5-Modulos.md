@@ -51,7 +51,7 @@ iex> x.executar(2)
 4
 ```
 
-### Funções privadas
+### Funções anônimas
 
 No Elixir também é possível criar funções privadas dentro do mesmo contexto, podendo ser repassada para outros contextos por meio dos parâmetros das funções:
 
