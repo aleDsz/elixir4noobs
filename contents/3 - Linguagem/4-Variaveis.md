@@ -93,6 +93,16 @@ iex> %User{}
   id: nil,
   nome: nil
 }
+
+# Sigils (é isso mesmo, não tem tradução)
+iex> ~w(a b c) # Word list de String
+["a", "b", "c"]
+
+iex> ~w(a b c)a # Word list de Átomos
+[:a, :b, :c]
+
+iex> ~r/hello/ # RegEx
+~r/hello/
 ```
 
 ### Átomos
@@ -161,3 +171,19 @@ Uma Struct é um Map o qual define-se um tipo ao Map como um todo. Ou seja, quan
 Em versões mais recentes do Elixir (1.9+), é possível você validar se um Map é apenas um Map ou se ele também é uma Struct ou não.
 
 Em versões mais antigas (1.8-), isso é garantido através da chave `:__struct__` dentro do Map.
+
+### Sigils
+
+É uma representação textual que pode ser interpretada conforme à linguagem define ou conforme um Sigil customizado, o qual é definido pelo próprio usuário dentro de um projeto.
+
+*Word List* é um exemplo, pois é uma lista de palavras bastante utilizado quando precisamos criar um tipo de *enum*.
+
+```elixir
+iex> avaliable_words = ~w(batata arroz feijao)
+["batata", "arroz", "feijao"]
+
+# Validação de uma palavra dentro de uma lista de palavras (ou array de Strings)
+
+iex> "salada" in avaliable_words
+false
+```
