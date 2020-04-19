@@ -86,7 +86,7 @@ iex> 'aleDsz'
 
 # Estrutura (Struct)
 iex> defmodule User do
-...>   defstruct [:id, nome]
+...>   defstruct [:id, :nome]
 ...> end
 iex> %User{}
 %User{
