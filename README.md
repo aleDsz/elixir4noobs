@@ -13,9 +13,9 @@
 </h3>
 
 <p align="center">
-  <strong>Este curso ainda está sendo desenvolvido.</strong>
+  <strong>O curso básico/iniciante está finalizado :)</strong>
   <br />
-  <a href="#"><strong>Explore a documentação »</strong></a>
+  <a href="#conteúdos"><strong>Explore a documentação »</strong></a>
   <br />
   <br />
   <a href="https://github.com/aleDsz/elixir4noobs">Report Bug</a>
