@@ -21,3 +21,9 @@ end
 ```
 
 Ao executar o `mix test` seu teste será executado e você poderá ver quantos deram sucesso, mas se quiser que ele seja verboso, utilize o comando `mix test --trace`.
+
+Caso você queira fazer tests **end-to-end**, você precisa ver a documentação da biblioteca que você for usar para gerar uma API:
+
+- [Phoenix](https://hexdocs.pm/phoenix)
+- [Maru](https://hexdocs.pm/maru)
+- [Plug](https://hexdocs.pm/plug)
