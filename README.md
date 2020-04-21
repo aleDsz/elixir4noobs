@@ -46,6 +46,7 @@
 4. Recursos extras
     - [Gerenciador de Pacotes](./contents/4%20-%20Recursos%20extras/1-Gerenciador%20de%20Pacotes.md)
       * [Terminal Interativo](./contents/4%20-%20Recursos%20extras/1-Gerenciador%20de%20Pacotes.md#terminal-interativo)
+    - [Testes](./contents/4%20-%20Recursos%20extras/2-Testes.md)
 
 ## Quero contribuir
 
