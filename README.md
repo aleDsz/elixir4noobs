@@ -48,6 +48,7 @@
       * [Terminal Interativo](./contents/4%20-%20Recursos%20extras/1-Gerenciador%20de%20Pacotes.md#terminal-interativo)
     - [Testes](./contents/4%20-%20Recursos%20extras/2-Testes.md)
     - [Pattern Matching](./contents/4%20-%20Recursos%20extras/3-Pattern%20Matching.md)
+    - [Bibliotecas](./contents/4%20-%20Recursos%20extras/4-Bibliotecas.md)
 
 ## Quero contribuir
 
