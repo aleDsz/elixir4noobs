@@ -36,7 +36,7 @@
     - [Sobre a linguagem](./contents/3%20-%20Linguagem/1-Sobre%20a%20linguagem.md)
       * [Extensão](./contents/3%20-%20Linguagem/1-Sobre%20a%20linguagem.md#extensão)
     - [Paradigma](./contents/3%20-%20Linguagem/2-Paradigma.md)
-    - [Síntaxe](./contents/3%20-%20Linguagem/3-Sintaxe.md)
+    - [Sintaxe](./contents/3%20-%20Linguagem/3-Sintaxe.md)
     - [Variáveis](./contents/3%20-%20Linguagem/4-Variaveis.md)
       * [Tipos](./contents/3%20-%20Linguagem/4-Variaveis.md#tipos)
     - [Módulos](./contents/3%20-%20Linguagem/5-Modulos.md)
