@@ -26,7 +26,7 @@
 ## Conteúdos
 
 1. Introdução
-    - [Sobre o Projeto](./contents/1%20-%20Introducao/1-Sobre%20o%20Projeto.md)
+    - [Sobre o Projeto](./contents/1%20-%20Introducao/1-Sobre%20o%20projeto.md)
     - [Pré-requisitos](./contents/1%20-%20Introducao/2-Pre-requisitos.md)
       * [Conhecimentos Necessários](./contents/1%20-%20Introducao/2-Pre-requisitos.md#conhecimentos-necessários)
       * [Instalação](./contents/1%20-%20Introducao/2-Pre-requisitos.md#instalação)
