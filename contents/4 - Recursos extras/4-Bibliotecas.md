@@ -63,3 +63,56 @@ Além disso, estamos:
 3) Validando se no campos `:status`, os dados inseridos fazem parte do enum de `["active", "inactive"]`.
 
 **Curiosidade:** Esse schema utiliza `:binary_id` como ID, o qual é geralmente utilizado pelo Postgres.
+
+## Tesla
+
+Consumir uma api REST pode ser fácil e prazeroso utilizando a biblioteca [Tesla](https://github.com/teamon/tesla).
+Com pouco esforço é possível contruir clientes flexíveis e poderosos que podem ser utilizados em nossas aplicações a qualquer momento:
+
+```elixir
+defmodule GitHub do
+  use Tesla
+
+  plug Tesla.Middleware.BaseUrl, "https://api.github.com"
+  plug Tesla.Middleware.Headers, [{"authorization", "token xyz"}]
+  plug Tesla.Middleware.JSON
+
+  def user_repos(login) do
+    get("/users/" <> login <> "/repos")
+  end
+end
+```
+
+## Floki
+
+Uma das mais amadas da comunidade sem dúvidas, a biblioteca [Floki](https://github.com/philss/floki) traz com maestria todas as ferramentas necessárias para o parsing de HTML.
+Tarefas como escrever um crawler simples ou interpretações complexas podem ser alcançadas facilmente com essa belezinha!!! Ah e tudo isso utilizando seletores css, o que deixa nossa vida ainda mais fácil hehe!
+
+Exemplo
+
+```html
+<!doctype html>
+<html>
+<body>
+  <section id="content">
+    <p class="headline">Floki</p>
+    <span class="headline">Enables search using CSS selectors</span>
+    <a href="https://github.com/philss/floki">Github page</a>
+    <span data-model="user">philss</span>
+  </section>
+  <a href="https://hex.pm/packages/floki">Hex package</a>
+</body>
+</html>
+```
+
+```elixir
+{:ok, document} = Floki.parse_document(html)
+
+Floki.find(document, "p.headline")
+# => [{"p", [{"class", "headline"}], ["Floki"]}]
+
+document
+|> Floki.find("p.headline")
+|> Floki.raw_html
+# => <p class="headline">Floki</p>
+```
