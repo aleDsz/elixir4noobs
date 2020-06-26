@@ -10,7 +10,12 @@ Na programação funcional uma variável não é de fato uma viarável pois a im
 
 Para explicar melhor, irei citar um artigo do [Medium](https://medium.com/trainingcenter/programa%C3%A7%C3%A3o-funcional-para-iniciantes-9e2beddb5b43) que exemplifica bem essa ideia:
 
-    A imutabilidade faz sentido dentro da programação funcional pelo seu viés matemático. Nela, um número sempre será aquele valor, independente de onde esteja ou como está sendo usado. É importante também entender que nas expressões matemáticas, para um mesmo valor passado a uma variável, teremos o mesmo retorno da função. Ele nunca muda. Se você tem uma expressão como f(x) = x + 2, você pode passar o número 3 quantas vezes quiser, esta função sempre retornará 5. Um último ponto é que o número 3 passado para x, não irá mudar seu valor, ou seja, ele permanece inalterado após o seu uso na função.
+    A imutabilidade faz sentido dentro da programação funcional pelo seu viés matemático. Nela, um número
+    sempre será aquele valor, independente de onde esteja ou como está sendo usado. É importante também
+    entender que nas expressões matemáticas, para um mesmo valor passado a uma variável, teremos o mesmo
+    retorno da função. Ele nunca muda. Se você tem uma expressão como f(x) = x + 2, você pode passar o
+    número 3 quantas vezes quiser, esta função sempre retornará 5. Um último ponto é que o número 3
+    passado para x, não irá mudar seu valor, ou seja, ele permanece inalterado após o seu uso na função.
 
 Entendendo o que fora citado acima, podemos dizer que tudo que está fora do mesmo contexto, não altera os dados de outros contextos.
 
