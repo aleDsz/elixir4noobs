@@ -1,4 +1,4 @@
-# 3.4 - Variáveis
+# 3.5 - Variáveis
 
 Como dito anteriormente no curso, as variáveis não se comportam como variáveis na maioria dos casos.
 

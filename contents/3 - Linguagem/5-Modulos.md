@@ -1,4 +1,4 @@
-# 3.5 Módulos
+# 3.6 Módulos
 
 Dentro de uma aplicação feita em Elixir, para que você tenha acesso à um conjunto de funções descritas dentro de um arquivo, utiliza-se **Módulos** para que, quando compilado, você não precise carregar um arquivo parar executar uma função.
 
