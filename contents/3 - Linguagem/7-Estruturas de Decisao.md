@@ -1,4 +1,4 @@
-# 3.6 Estruturas de Decisão
+# 3.7 Estruturas de Decisão
 
 Quando precisamos tomar decisões difíceis e complicadas em nosso código, é sempre bom utilizar uma das estuturas de decisão.
 
