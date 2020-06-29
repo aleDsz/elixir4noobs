@@ -18,7 +18,7 @@ iex> x = 20
 
 Assim como em outras linguagens de programação, no Elixir nós temos vários tipos de variáveis, porém a linguagem não é fortemente tipada como Java, C# e outras.
 
-Você tem a liberdade de trabalhar sem definir tipos às constantes, porém isso te deixa menos inseguro do que você irá receber ou devolver em uma função, e não precisa definir um tipo na hora de declarar a mesma.
+Você tem a liberdade de trabalhar sem definir tipos às constantes, porém isso te deixa um pouco inseguro do que você irá receber ou devolver em uma função, e não precisa definir um tipo na hora de declarar a mesma.
 
 ```elixir
 nome = "Alexandre"
