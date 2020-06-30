@@ -4,7 +4,7 @@ Se você chegou nesse passo, acredito que esteja pensando em qual IDE ou qual ed
 
 Bom, você não precisa se preocupar tanto com isso, pois você pode usar até um bloco de notas para tal 😅
 
-Brincadeiras a parte, você escolher estes editores:
+Brincadeiras a parte, você pode escolher estes editores:
 
  - [Sublime Text 3](https://www.sublimetext.com/3)
  - [Visual Studio Code](https://code.visualstudio.com/download)
