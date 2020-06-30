@@ -40,8 +40,8 @@
     - [Sintaxe](./contents/3%20-%20Linguagem/4-Sintaxe.md)
     - [Variáveis](./contents/3%20-%20Linguagem/8-Variaveis.md)
       * [Tipos](./contents/3%20-%20Linguagem/8-Variaveis.md#tipos)
-    - [Módulos](./contents/3%20-%20Linguagem/6-Modulos.md)
-      * [Funções](./contents/3%20-%20Linguagem/6-Modulos.md#funções)
+    - [Módulos](./contents/3%20-%20Linguagem/5-Modulos.md)
+      * [Funções](./contents/3%20-%20Linguagem/5-Modulos.md#funções)
     - [Estruturas de Repetição](./contents/3%20-%20Linguagem/7-Estruturas%20de%20Repeticao.md)
     - [Estruturas de Decisão](./contents/3%20-%20Linguagem/8-Estruturas%20de%20Decisao.md)
 4. Recursos extras
