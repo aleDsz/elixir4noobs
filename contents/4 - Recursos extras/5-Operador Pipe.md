@@ -31,7 +31,8 @@ iex(5)> string = String.downcase(string)
 iex(6)> string
 "elixir4noobs"
 ```
-Pronto! Aí está a nossa ``string`` sem os ``espaço``, sem ``\n`` e sem as ``letras maiúsculas``. Ou seja, primeiro a gente precisou atribuir a nossa ``váriavel``, depois tivemos que fazer o ``trim`` e por fim o ``downcase``, isso tudo atribuindo. São nesses cenários que a gente pode usar o ``pipe operator``.
+
+Pronto! Aí está a nossa `string` sem os `espaço`, sem `\n` e sem as `letras maiúsculas`. Ou seja, primeiro a gente precisou atribuir a nossa `váriavel`, depois tivemos que fazer o `trim` e por fim o `downcase`, isso tudo atribuindo. São nesses cenários que a gente pode usar o `pipe operator`.
 
 ## Utilizando o Pipe Operator
 
