@@ -14,7 +14,7 @@ Entretanto, eu gostaria de gerar uma string sem os `espaços`, sem esse `\n` e s
 iex(2)> String.trim(string)
 "eLiXir4NoObS"
 ```
-Dito isso, podemos ver que ele removeu os espaços e também o ``\n``. Porém, estamos em uma ``linguagem imutável``. Logo, a gente precisa atribuir a nossa ``string`` novamente.
+Dito isso, podemos ver que ele removeu os espaços e também o `\n`. Porém, estamos em uma `linguagem imutável`. Logo, a gente precisa atribuir a nossa `string` novamente.
 
 ```elixir
 iex(3)> string = String.trim(string)
