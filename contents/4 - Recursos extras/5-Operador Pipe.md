@@ -43,7 +43,7 @@ iex(7)> " eLiXir4NoObS \n " |> String.trim() |> String.downcase()
 "elixir4noobs"
 ```
 
-O que o ``pipe operator`` faz? Bom, ele nada mais faz do que pegar o resultado de qualquer operação antes dele e passa para a função seguinte como primeiro argumento. Ou seja, estamos pegando ``" eLiXir4NoObS \n "`` passando para a função ``String.trim()`` e com o resultado da função ``trim()`` estamos passando para ``String.downcase()`` sempre como o primeiro argumento.
+O que o `pipe operator` faz? Bom, ele nada mais faz do que pegar o resultado de qualquer operação antes dele e passa para a função seguinte como primeiro argumento. Ou seja, estamos pegando `" eLiXir4NoObS \n "` passando para a função `String.trim/1` e com o resultado da função `String.trim/1` estamos passando para `String.downcase/1` sempre como o primeiro argumento.
 
 ---
 
