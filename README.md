@@ -50,6 +50,7 @@
     - [Testes](./contents/4%20-%20Recursos%20extras/2-Testes.md)
     - [Pattern Matching](./contents/4%20-%20Recursos%20extras/3-Pattern%20Matching.md)
     - [Bibliotecas](./contents/4%20-%20Recursos%20extras/4-Bibliotecas.md)
+    - [Operador Pipe](./contents/4%20-%20Recursos%20extras/5-Operador%20Pipe.md)
 
 ## Quero contribuir
 
