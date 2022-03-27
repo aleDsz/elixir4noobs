@@ -23,7 +23,7 @@ iex(4)> string
 "eLiXir4NoObS"
 ```
 
-Agora sim estamos com a nossa ``string`` modificada. Para deixarmos com letras minúsculas, teriamos que novamente atribuir a ``string`` recebendo a função ``String.downcase/1``.
+Agora sim estamos com a nossa `string` modificada. Para deixarmos com letras minúsculas, teriamos que novamente atribuir a `string` recebendo a função `String.downcase/1`.
 
 ```elixir
 iex(5)> string = String.downcase(string)
