@@ -1,6 +1,6 @@
 # 4.5 Operador Pipe
 
-O operador pipe "``|>``" passa o resultado de uma expressão como o primeiro parâmetro de outra expressão. Com ele podemos escrever códigos simples e muito mais elegantes. Exemplos abaixo:
+O operador pipe `|>` passa o resultado de uma expressão como o primeiro parâmetro de outra expressão. Com ele podemos escrever códigos simples e muito mais elegantes. Exemplos abaixo:
 
 Imagine que eu tenha a seguinte string:
 
