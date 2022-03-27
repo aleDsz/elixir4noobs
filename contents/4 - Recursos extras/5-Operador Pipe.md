@@ -36,7 +36,7 @@ Pronto! Aí está a nossa `string` sem os `espaço`, sem `\n` e sem as `letras m
 
 ## Utilizando o Pipe Operator
 
-Veja como é bem mais fácil produzir código mais legíveis e elegante, um operador muito legal em ``Elixir`` para deixar nosso código mais elegante e fácil de entender!
+Veja como é bem mais fácil produzir código mais legíveis e elegante, um operador muito legal em `Elixir` para deixar nosso código mais elegante e fácil de entender!
 
 ```elixir
 iex(7)> " eLiXir4NoObS \n " |> String.trim() |> String.downcase()
