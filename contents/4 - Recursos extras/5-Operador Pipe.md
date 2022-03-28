@@ -8,6 +8,7 @@ Imagine que eu tenha a seguinte string:
 iex(1)> string = " eLiXir4NoObS \n "
 " eLiXir4NoObS \n "
 ```
+
 Entretanto, eu gostaria de gerar uma string sem os `espaços`, sem esse `\n` e sem essas letras `maiúsculas`. Bom, uma opção que eu poderia fazer seria chamar a função `String.trim/1` passando a minha própria `string`.
 
 ```elixir
