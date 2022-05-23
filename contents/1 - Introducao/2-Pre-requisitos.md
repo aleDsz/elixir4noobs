@@ -157,7 +157,7 @@ sudo port install elixir
    ```
  * Void Linux
  
-   Para instalar no Arch Linux é necessário executar apenas um comando no seu terminal:
+   Para instalar no Void Linux é necessário executar apenas um comando no seu terminal:
    
    ```sh
    xbps-install -S elixir
