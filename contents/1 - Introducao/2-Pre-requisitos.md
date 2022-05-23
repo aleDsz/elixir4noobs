@@ -155,6 +155,13 @@ sudo port install elixir
    zypper refresh
    zypper install elixir
    ```
+ * Void Linux
+ 
+   Para instalar no Void Linux é necessário executar apenas um comando no seu terminal:
+   
+   ```sh
+   xbps-install -S elixir
+   ```
 
 
 **OBS.:** Para que tudo funcione corretamente, é estritamente necessário que Elixir e Erlang estejam instalados em seu computador.
