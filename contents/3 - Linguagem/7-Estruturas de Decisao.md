@@ -86,3 +86,30 @@ iex> cond do
 ...>     "acho que não teve jeito mesmo"
 ...> end
 ```
+
+### With
+
+O with é como um "execute se receber tal", dado uma função, se o seu retorno for o esperado, execute o código. Ficara mais facil entender com o exemplo a seguir
+
+```elixir
+iex> with {:ok, _banana} <- MyModule.my_fun(my_param) do
+...>  "Deu boa patrão"
+...> end
+```
+
+Basicamente se a função retornar uma tupla de `{:ok, qualquer_valor}` o treixo de código no bloco sera executado, caso contrario um erro é retornado pra quem chamou a função.
+
+O with pode receber varias condições para avaliar, e também pode conter um `else` para tratar os erros.
+
+```elixir
+iex> with {:ok, banana} <- MyModule.my_fun(my_param),
+...>      {:ok, banana2} <- MyModule.my_other_fun(my_param) do
+...>  "Deu boa patrão"
+...> else
+...>  :error -> 
+...>    "Deu merda patrão"
+...>
+...>  _other_error ->
+...>    "Deu outra merda patrão"
+...> end
+```
