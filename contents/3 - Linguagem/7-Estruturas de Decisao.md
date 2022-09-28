@@ -89,7 +89,9 @@ iex> cond do
 
 ### With
 
-O with é como um "execute se receber tal", dado uma função, se o seu retorno for o esperado, execute o código. Ficara mais facil entender com o exemplo a seguir
+Podia ser um `with` ela (ou ele, ou elu), mas é só uma função do `Kernel` para avaliar uma ou mais condições, é recomendado utilizar em momentos que seu `case` começar a ficar aninhado.
+
+Dado uma função, se o seu retorno for o esperado (para isso sera utilizado o [pattern matching](../4%20-%20Recursos%20extras/3-Pattern%20Matching.md)), execute o código. Ficará mais fácil entender com o exemplo a seguir:
 
 ```elixir
 iex> with {:ok, _banana} <- MyModule.my_fun(my_param) do
@@ -97,13 +99,13 @@ iex> with {:ok, _banana} <- MyModule.my_fun(my_param) do
 ...> end
 ```
 
-Basicamente se a função retornar uma tupla de `{:ok, qualquer_valor}` o treixo de código no bloco sera executado, caso contrario um erro é retornado pra quem chamou a função.
+Basicamente, se a função retornar uma tupla de `{:ok, qualquer_valor}` (valores que você pode definir como quiser), o trecho de código no bloco `do` será executado. Caso contrario, um erro é retornado para quem chamou a função.
 
-O with pode receber varias condições para avaliar, e também pode conter um `else` para tratar os erros.
+O `with` pode receber várias condições para avaliar, e também pode conter um bloco de `else` para tratar qualquer cláusula que não seja esperada no bloco `with ... do`. Para tratar tais cláusulas você pode usar uma espécie de `case`.
 
 ```elixir
-iex> with {:ok, banana} <- MyModule.my_fun(my_param),
-...>      {:ok, banana2} <- MyModule.my_other_fun(my_param) do
+iex> with {:ok, _banana} <- MyModule.my_fun(my_param),
+...>      _another_banana <- MyModule.my_other_fun(my_param) do
 ...>  "Deu boa patrão"
 ...> else
 ...>  :error -> 
@@ -111,5 +113,13 @@ iex> with {:ok, banana} <- MyModule.my_fun(my_param),
 ...>
 ...>  _other_error ->
 ...>    "Deu outra merda patrão"
+...> end
+```
+
+Também é possível capturar os valores esperados utilizando o operador de atribuição.
+
+```elixir
+iex> with %Struct{} = struct <- MyModule.my_fun(my_param) do
+...>  "Capturado chefia, #{struct}" 
 ...> end
 ```
